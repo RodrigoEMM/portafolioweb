@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="personalizacion.css">
+	<title>Programacion Web</title>
+</head>
+
+<body>
+
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>Laboratorio 2 Programacion web</h1>
+				<p>Portafolio Rodrigo Esteban Morán Magaña</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todas las categorias</a>
+				<a href="#">Hobbies</a>
+				<a href="#">Comida y bebida favoritas</a>
+				<a href="#">Mi carrera en 5 años</a>
+			</div>
+		</header>
+
+		<section class="grid" id="grid">
+			<div class="item" data-categoria="hobbies" data-etiquetas="Hobbies videojuegos"
+				data-descripcion="Creo que los videojuegos son mi pasatiempo favorito. pero, ¿porque? francamente no lo recuerdo pero 
+				siempre me han fascinado. tanto por la narrativa, belleza visual, gameplay pulido, que tengan la capacidad de ser mas inmersivos 
+				que una pelicula o un libro y que puedan hacerte sentir tantas emociones, no se, creo que la sumatoria de todas ellas son
+				las que hagan de esto, mi pasatiempo favorito.">
+				<div class="item-contenido">
+					<img src="img/hobbie1.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="hobbies" data-etiquetas="Hobbies trophy"
+				data-descripcion="Aparte de los videojuegos pero ligado a ellos son los logros o trofeos que puedes llegar a conseguir dentro
+				de estos y la razon de la que sea distinto a estas es que involucra a una comunidad muy especifica de ese mercado. a traves
+				de esta mecanica puedes encontrar personas de lo mas diferentes con este mismo afin a los videojuegos y en los cuales se vuelven
+				hasta cierto punto una familia.
+				
+				En mi caso tengo a mi grupo de amigos con los cuales realizo esta dinamica desde hace mucho tiempo cazando los distintos retos que nos 
+				propone".>
+				<div class="item-contenido">
+					<img src="img/trophy.gif" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="hobbies" data-etiquetas="hobbies coleccion"
+				data-descripcion="Me encanta coleccionar articulos Geek, como figuras, libros de arte, musica, videojuegos valga la redundancia
+				y todo lo que tenga que ver con este tipo de merchandaising.
+				
+				Actualmente aspiro ha lograr un coleccion enorme de videojuegos que poco a poco estoy logrando a formar.">
+				<div class="item-contenido">
+					<img src="img/coleccion.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="hobbies" data-etiquetas="Hobbies cine"
+				data-descripcion="Me encanta el cine, soy de los que si pudieran, pasarian varias veces a ver una funcion, soy de ver 
+				cualquier genero de pelicula y de cualquier epoca, soy muy abierto en ese aspecto y no me centro en un genero o si son actuales 
+				o incluso si son extrangeras..">
+				<div class="item-contenido">
+					<img src="img/cine.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="comida y bebida favoritas" data-etiquetas="comida hamburguesa"
+				data-descripcion="inserte meme de: no me gustan, las adoro! creo que sin mentir, podria comer hamburguesas todos los dias 
+				y a todo momento, pero creo que el colesterol no me dejara. es simplemente el platillo que no me aburre, es perfecta. Tiene
+				tanto carne, vegetales, lacteos y pan y puedes comertelo de un manera practica y portatil.... como no ser el platillo perfecto, por 
+				ese fanatismo es que ocasionalmente me llaman el chico comer hamburguesas.">
+				<div class="item-contenido">
+					<img src="img/hamburguesa.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="comida y bebida favoritas" data-etiquetas="comida y lasaña"
+				data-descripcion="Amo le lasagne i miei amici. me fascinan la mayoria de las pastas pero la lasaña se lleva el oro.
+				Es curioso, no soy fanatico de la comida italiana en terminos generales, pero en lo que es la pasta y sus variantes.. uff Delizioso">
+				<div class="item-contenido">
+					<img src="img/lasagna.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="comida y bebida favoritas" data-etiquetas="bebida coca cola"
+				data-descripcion="A mis riñones les gusta ok no. bebida selecta por excelencia, creo que es raro encontrar a alguien
+				que no le guste esta bebida. en lo personal me encanta, aunque por obvias razones no la consumo muy seguido, casi siempre 
+				tomo una de estas cuando como algo que para mi es delicioso y tambien cuando realizo trabajos. si, este portafolio fue
+				acompañado por cocacolas... y frustracion pero con cocacolas.">
+				<div class="item-contenido">
+					<img src="img/cocacola.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="comida y bebida favoritas" data-etiquetas="bebida horchata"
+				data-descripcion="Si hay alguna bebida que compite con la coca cola, seria la horchata. ¿quien no acompaño unos bueno panes con 
+				su respectiva horchata? Existen distintos tipos de horchata pero me decanto por la horchata de almendras.">
+				<div class="item-contenido">
+					<img src="img/horchata.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="mi carrera en 5 años" data-etiquetas="carrera en 5 años"
+				data-descripcion="¿como me veo en 5 años en mi carrera? pues, ejerciendo mi profesion con todo en lo alto diciendo que le faltan 
+				5 minutos para que se le acabe la hora en el ciber.. ok no, me encantaria especializarme en el area de redes dentro de mi profesion,
+				pero si me especializo en alguna area de programacion tambien estaria genial. he tenido altibajos en toda mi carrera pero con esfuerzo
+				ya falta poco para egresar de esta interesante carrera y ejercer mi profesion!
+				 	">
+				<div class="item-contenido">
+					<img src="img/eltonis.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+	</div>
+
+    /* ------------------------- */
+    /* Aqui decidi mejor utilizar las librerias de muri ya que es mas facil y practico */
+    /* ------------------------- */
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
